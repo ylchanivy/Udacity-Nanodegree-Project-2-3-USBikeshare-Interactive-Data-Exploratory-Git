@@ -202,6 +202,7 @@ def user_stats(df):
         
     except(KeyError):
         print('No Gender counts as there\'s not Gender column in this city dataset ')
+        print('Washington city do not have gender information')
            
         
 
