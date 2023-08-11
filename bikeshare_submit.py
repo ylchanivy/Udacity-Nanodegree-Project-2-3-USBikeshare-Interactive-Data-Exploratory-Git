@@ -112,7 +112,7 @@ def time_stats(df):
 
     # display the most common month  
     popular_month =df['month'].mode()[0]
-    print('Most common travel month of city is {} month.'.format(popular_month))
+    print(f'Most common travel month of city is {popular_month} month.')
 
 
     # display the most common day of week
