@@ -117,12 +117,14 @@ def time_stats(df):
 
     # display the most common day of week
     popular_dow =df['day_of_week'].mode()[0]
-    print('Most common travel week of day of city is {}.'.format(popular_dow))
+    print(f'Most common travel week of day of city is {popular_dow}.')
+    
 
 
     # display the most common start hour
     popular_hour=df['start_hour'].mode()[0]
-    print('Most common travel week of hour of city is {}.'.format(popular_hour))
+    print(f'Most common travel week of hour of city is {popular_hour}.')
+    
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
